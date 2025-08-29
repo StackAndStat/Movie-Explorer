@@ -143,7 +143,6 @@ function App() {
         {movieDetails && (
           <BasicRating
             value={ratings[movieDetails.imdbID] || 0}
-            ratings={ratings}
             onRate={handleRatingChange}
             movieDetails={movieDetails}
           />

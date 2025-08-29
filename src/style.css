@@ -292,3 +292,10 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 750px) {
+  .my-rating .custom-rating.MuiRating-root {
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
