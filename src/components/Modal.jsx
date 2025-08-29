@@ -23,7 +23,7 @@ function Modal({
           <p className="rating">
             ⭐ <span>{imdbRating}</span>
           </p>
-          <p>
+          <p className="plot">
             <strong>Plot: {Plot}</strong>
           </p>
 

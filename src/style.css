@@ -163,6 +163,7 @@ main .loading {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   gap: 20px;
   backdrop-filter: blur(20px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
@@ -205,15 +206,12 @@ main .loading {
   margin-top: 15px;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
 
 .my-rating .custom-rating.MuiRating-root {
   font-size: 2rem;
   background: rgba(255, 255, 255, 0.1);
-}
-
-.rate-value {
 }
 
 .modal-buttons {
@@ -290,6 +288,22 @@ footer {
 
   .modal-details {
     text-align: center;
+  }
+
+  .plot {
+    /* background-color: #0f2027; */
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  .my-rating {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-buttons {
+    display: flex;
+    justify-content: center;
   }
 }
 
